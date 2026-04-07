@@ -16,7 +16,6 @@ def main():
     # 1. ĐỌC VÀ TIỀN XỬ LÝ DỮ LIỆU CHUNG
     # ============================================
     print("\n[INFO] Đang tải dữ liệu...")
-    # Lưu ý: Sửa data_path tùy theo thư mục của bạn (ví dụ: data_path='.')
     train_images, train_labels, test_images, test_labels = load_mnist_data(data_path='data')
     
     # Làm phẳng (flatten) và chuẩn hóa (normalize)
